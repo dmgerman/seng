@@ -1,0 +1,142 @@
+#+STARTUP: overview
+#+TITLE: Seng programs in Canada
+# make by default the result of a block its standard output
+#
+#+SEQ_TODO: TODO(t) NEXT(n) WAITING(w) SOMEDAY(s) PROJ(p) | DONE(d) CANCELLED(c) APPT(a)
+#
+#+PROPERTY: header-args         :results output
+# i like to be pedantic
+#+PROPERTY: header-args:C       :main no :flags -std=c99 -Wall --pedantic -Werror
+#  use C+++ instead of C++ (L+ means add arguments to language L)
+#+PROPERTY: header-args:C+++    :main no :flags -std=c++17 -Wall --pedantic -Werror
+# specify the default database
+# result:   guarantees the result is typeset as a table
+# colnames: orgmode does not insert column names, force it to do it
+#+PROPERTY: header-args:sqlite  :db /tmp/rip.db :colnames yes :results  table
+# make sure that ^ and _ do not get interpreted, since they are commonly used
+# in programming (specially _)
+#+PROPERTY: header-args:sql   :engine postgresql  :cmdline -h localhost -p 54321  imdb :colnames yes :results  table
+#+PROPERTY: header-args:python   :results output
+#+PROPERTY: header-args:scala    :results output
+#+PROPERTY: header-args:R    :results output
+#+OPTIONS: ^:nil
+#
+#
+# Documentation: https://orgmode.org/manual/index.html#Top
+#
+# Types of results: https://orgmode.org/manual/Results-of-Evaluation.html#Results-of-Evaluation
+#  :type  list, scalar,  verbatim, file, 
+#  :format code, drawer, html, latex, link, graphics,  org, pp, raw
+#  :exports code, both, results, none
+#
+# library of babel: maybe the answer is there:
+#  https://orgmode.org/worg/library-of-babel.html
+
+
+* List of programs in Canada
+
+Source: https://engineerscanada.ca/accreditation/accredited-programs/institution
+
+| Province      | University                        | Started | Name                    | Faculty     | Department(s)  | Notes                                                        | CS faculty |
+|---------------+-----------------------------------+---------+-------------------------+-------------+----------------+--------------------------------------------------------------+------------|
+| Alberta       | University of Calgary             |    2002 |                         | Engineering | Elec. and SEng | CS appears to teach all SEng courses                         | Science    |
+| BC            | Thompson Rivers University        |    2022 |                         | Science     | Engineering    | Some CS courses, hard to see how it is structured            | Science    |
+| BC            | University of Victoria            |    2007 |                         |             |                |                                                              |            |
+| New Brunswick | University of New Brunswick       |    2006 |                         | Engineering | ECE            | Joint program, CS teaches core, 4 SENG courses taught by ECE | CS         |
+| Ontario       | McMaster University               |    2001 |                         |             |                |                                                              |            |
+| Ontario       | McMaster University               |    2022 | Software and Biomedical |             |                |                                                              |            |
+| Ontario       | Ontario Institute of Technology   |    2009 |                         |             |                |                                                              |            |
+| Ontario       | The University of Western Ontario |    2001 |                         |             |                |                                                              |            |
+| Ontario       | University of Ottawa              |    2001 |                         |             |                |                                                              |            |
+| Ontario       | University of Waterloo            |    2006 |                         |             |                |                                                              |            |
+| Ontario       | York University                   |    2016 |                         |             |                |                                                              |            |
+| Quebec        | Carleton University               |    2003 |                         |             |                |                                                              |            |
+| Quebec        | Concordia                         |    2002 |                         |             |                |                                                              |            |
+| Quebec        | École de technologie supérieure   |    2004 |                         |             |                |                                                              |            |
+| Quebec        | Lakehead University               |    2002 |                         |             |                |                                                              |            |
+| Quebec        | McGill University                 |    2007 |                         |             |                |                                                              |            |
+| Quebec        | Polytechnique Montréal            |    2005 |                         |             |                |                                                              |            |
+| Quebec        | Université Laval                  |    2006 |                         |             |                |                                                              |            |
+| Saskatchewan  | University of Regina              |    2007 | Software Systems        |             |                |                                                              |            |
+
+There are 17 accredited Software Engineering programs in the country. McMaster offers, in addition,
+/Software and Biomedical/ while Regina offers a /Software Systems/ program.
+
+* University of Calgary
+
+https://www.ucalgary.ca/future-students/undergraduate/explore-programs/software-engineering
+
+** Program description:
+
+https://www.ucalgary.ca/pubs/calendar/current/en-4-9.html
+
+There are some variations of the program:
+
+- Regular Program
+- Minors:
+  - Aerospace
+  - Biomedical Engineering
+  - Mechatronics
+  - BComm combined
+
+** Courses description
+
+https://www.ucalgary.ca/pubs/calendar/current/software-engineering.html
+
+SEng courses are taught by the CS deparment. See, for example:
+
+https://contacts.ucalgary.ca/info/cpsc/courses/w24
+
+
+** Organization: Department of Software Engineering
+
+https://schulich.ucalgary.ca/electrical-software
+
+
+** Other info:
+
+https://alis.alberta.ca/occinfo/post-secondary-programs/bachelor-of-science-in-software-engineering/university-of-calgary/faed286c-ecb1-4bee-aaaf-a12700c5f332/
+
+
+* Thompson Rivers University
+
+https://www.tru.ca/science/departments/engineering/software-engineering.html
+
+https://www.tru.ca/programs/catalogue/bachelor-software-engineering.html
+
+
+** Program description
+
+https://www.tru.ca/science/departments/engineering/software-engineering/program/program-structure.html
+
+** Courses description
+
+https://www.tru.ca/science/departments/engineering/software-engineering/program/program-structure.html
+* New Brunswick
+
+** Program description
+
+Joint program of the Faculty of Computer Science and the Department of Electrical and Computer Engineering.
+
+https://www.unb.ca/fredericton/engineering/undergrad/swe/index.html
+
+Example of program schedule:
+
+https://www.unb.ca/fredericton/engineering/_assets/documents/matrices/swematrix2018.pdf
+
+https://www.unb.ca/fredericton/engineering/_assets/documents/swe-prereq2013.pdf
+
+- Many courses  are taught by CS, ECE, MATH
+- Generic engineering courses
+- SWE courses seem to be taught by ECE (Engineering)
+  
+- 4 SWE labeled courses (seem to be for courses specifically for this program)
+  - SWE 4040 Software Engineering Design Project or ENGG 40002 Senior Design Project or TME 40253 Product Design and Development
+  - SWE 4103 Software Quality and Project Management
+  - SWE 4203 Software Evolution and Maintenance
+  - SWE 4403 Software Architecture and Design Patterns
+
+
+** Courses description
+
+https://www.unb.ca/academics/calendar/undergraduate/current/frederictonprograms/bachelorofscienceinsoftwarenegineering.html
