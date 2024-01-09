@@ -43,6 +43,7 @@ Source: https://engineerscanada.ca/accreditation/accredited-programs/institution
 | BC            | Thompson Rivers University        |    2022 | Science           | Engineering                                                        | Some CS courses, hard to see how it is structured                        | Science                      | No?           |
 | BC            | University of Victoria            |    2007 | Engineering       | ECE and CS                                                         | Joint program. Administered by a director of Seng                        | Engineering                  | Yes           |
 | New Brunswick | University of New Brunswick       |    2006 | Engineering       | ECE                                                                | Joint program, CS teaches core, 4 SENG courses taught by ECE             | CS                           | Yes           |
+| Ontario       | Lakehead University               |    2002 | Engineering       | Software Engineering                                               | CS dept in a different faculty                                           | Science and Environ. studies | No            |
 | Ontario       | McMaster University               |    2001 | Engineering       | Computing and Software                                             | CS program under same department                                         | Same dept                    | Same dept     |
 | Ontario       | Ontario Institute of Technology   |    2009 | Engineering       | Electrical, Computer and Software Engineering                      | Seems independent of Computer Science dept                               | Science                      | No?           |
 | Ontario       | The University of Western Ontario |    2001 | Engineering       | ECE                                                                | Seems independent of Computer Science dept                               | Science                      | No?           |
@@ -52,7 +53,6 @@ Source: https://engineerscanada.ca/accreditation/accredited-programs/institution
 | Quebec        | Carleton University               |    2003 | Eng. and Design   | Systems and Computer Engineering                                   | Seems independent of Computer Science dept                               | Science (School of CS)       | No            |
 | Quebec        | Concordia                         |    2002 | Engineering       | Computer Science and Software Engineering                          | CS program in same department                                            | Same dept                    | Same dept     |
 | Quebec        | École de technologie supérieure   |    2004 | ----              | Département de génie logiciel et des technologies de l'information | CS program in same department                                            | Same dept                    | Same dept     |
-| Quebec        | Lakehead University               |    2002 | Engineering       | Software Engineering                                               | CS dept in a different faculty                                           | Science and Environ. studies | No            |
 | Quebec        | McGill University                 |    2007 | Engineering       | Electrical and Computer Engineering                                | CS dept in a different faculty, and offers a BA in SEng (non-accredited) | Science                      | Yes?          |
 | Quebec        | Polytechnique Montréal            |    2005 | Engineering       | Département de génie informatique et génie logiciel                | No CS program                                                            | -----                        | ------        |
 | Quebec        | Université Laval                  |    2006 | Science and Engr. | Département d'informatique et de génie logiciel                    | CS in same department                                                    | Same dept                    | Same dept     |
@@ -148,6 +148,27 @@ https://www.unb.ca/fredericton/engineering/_assets/documents/swe-prereq2013.pdf
 ** Courses description
 
 https://www.unb.ca/academics/calendar/undergraduate/current/frederictonprograms/bachelorofscienceinsoftwarenegineering.html
+
+* Lakehead
+
+https://www.lakeheadu.ca/programs/departments/software-engineering
+
+It is the only department in Canada named "Software Engineering" (part of the faculty of Engineering).
+
+The SEng program only includes (2 first, 1 second year) courses from the Computer Science department.
+
+Higher level topic are taught by the Seng department (even when equivalent course exists in CS). For example: "Software
+Engineering 3655 Principles of Operating systems"
+
+https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=30351&entitytype=CID&entitycode=Software+Engineering+3655&loaduseredits=True
+
+and "Computer Science 3473 Operating Systems"
+
+https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=22496&entitytype=CID&entitycode=Computer+Science+3473&loaduseredits=True
+
+** Program description
+
+https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&catalogid=29&chapterid=9329&topicgroupid=30351&loaduseredits=True
 
 * McMaster University: Software Engineering
 
@@ -320,27 +341,6 @@ There isn't a lot of information about it.
 https://www.etsmtl.ca/etudes/premier-cycle/baccalaureat-genie-logiciel#Cheminement-type
 
 https://www.etsmtl.ca/etudes/premier-cycle/baccalaureat-genie-logiciel#Cours-a-suivre
-
-* Lakehead
-
-https://www.lakeheadu.ca/programs/departments/software-engineering
-
-It is the only department in Canada named "Software Engineering" (part of the faculty of Engineering).
-
-The SEng program only includes (2 first, 1 second year) courses from the Computer Science department.
-
-Higher level topic are taught by the Seng department (even when equivalent course exists in CS). For example: "Software
-Engineering 3655 Principles of Operating systems"
-
-https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=30351&entitytype=CID&entitycode=Software+Engineering+3655&loaduseredits=True
-
-and "Computer Science 3473 Operating Systems"
-
-https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&topicgroupid=22496&entitytype=CID&entitycode=Computer+Science+3473&loaduseredits=True
-
-** Program description
-
-https://csdc.lakeheadu.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&catalogid=29&chapterid=9329&topicgroupid=30351&loaduseredits=True
 
 * McGill
 
