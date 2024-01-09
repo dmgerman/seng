@@ -37,25 +37,25 @@
 
 Source: https://engineerscanada.ca/accreditation/accredited-programs/institution
 
-| Province      | University                        | Started | Name | Faculty           | Department(s)                                                      | Notes                                                                    | CS faculty                   | Joint with CS |
-|---------------+-----------------------------------+---------+------+-------------------+--------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------+---------------|
-| Alberta       | University of Calgary             |    2002 |      | Engineering       | Elecrical and SEng                                                 | CS dept appears to teach all SEng courses                                | Science                      | No?           |
-| BC            | Thompson Rivers University        |    2022 |      | Science           | Engineering                                                        | Some CS courses, hard to see how it is structured                        | Science                      | No?           |
-| BC            | University of Victoria            |    2007 |      | Engineering       | ECE and CS                                                         | Joint program. Administered by a director of Seng                        | Engineering                  | Yes           |
-| New Brunswick | University of New Brunswick       |    2006 |      | Engineering       | ECE                                                                | Joint program, CS teaches core, 4 SENG courses taught by ECE             | CS                           | Yes           |
-| Ontario       | McMaster University               |    2001 |      | Engineering       | Computing and Software                                             | CS program under same department                                         | Same dept                    | Same dept     |
-| Ontario       | Ontario Institute of Technology   |    2009 |      | Engineering       | Electrical, Computer and Software Engineering                      | Seems independent of Computer Science dept                               | Science                      | No?           |
-| Ontario       | The University of Western Ontario |    2001 |      | Engineering       | ECE                                                                | Seems independent of Computer Science dept                               | Science                      | No?           |
-| Ontario       | University of Ottawa              |    2001 |      | Engineering       | School of Electrical Eng and CS                                    | ECE and CS merged in 1997                                                | Same dept                    | Same dept     |
-| Ontario       | University of Waterloo            |    2006 |      | Engineering       | ECE                                                                | Specifically says Joint between Faculties Math and Engr                  | Math                         | Yes           |
-| Ontario       | York University                   |    2016 |      | Engineering       | Electrical Engineering and CS                                      | CS program under same department                                         | Same dept                    | Same dept     |
-| Quebec        | Carleton University               |    2003 |      | Eng. and Design   | Systems and Computer Engineering                                   | Seems independent of Computer Science dept                               | Science (School of CS)       | No            |
-| Quebec        | Concordia                         |    2002 |      | Engineering       | Computer Science and Software Engineering                          | CS program in same department                                            | Same dept                    | Same dept     |
-| Quebec        | École de technologie supérieure   |    2004 |      | ----              | Département de génie logiciel et des technologies de l'information | CS program in same department                                            | Same dept                    | Same dept     |
-| Quebec        | Lakehead University               |    2002 |      | Engineering       | Software Engineering                                               | CS dept in a different faculty                                           | Science and Environ. studies | No            |
-| Quebec        | McGill University                 |    2007 |      | Engineering       | Electrical and Computer Engineering                                | CS dept in a different faculty, and offers a BA in SEng (non-accredited) | Science                      | Yes?          |
-| Quebec        | Polytechnique Montréal            |    2005 |      | Engineering       | Département de génie informatique et génie logiciel                | No CS program                                                            | -----                        | ------        |
-| Quebec        | Université Laval                  |    2006 |      | Science and Engr. | Département d'informatique et de génie logiciel                    | CS in same department                                                    | Same dept                    | Same dept     |
+| Province      | University                        | Started | Faculty           | Department(s)                                                      | Notes                                                                    | CS faculty                   | Joint with CS |
+|---------------+-----------------------------------+---------+-------------------+--------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------+---------------|
+| Alberta       | University of Calgary             |    2002 | Engineering       | Elecrical and SEng                                                 | CS dept appears to teach all SEng courses                                | Science                      | No?           |
+| BC            | Thompson Rivers University        |    2022 | Science           | Engineering                                                        | Some CS courses, hard to see how it is structured                        | Science                      | No?           |
+| BC            | University of Victoria            |    2007 | Engineering       | ECE and CS                                                         | Joint program. Administered by a director of Seng                        | Engineering                  | Yes           |
+| New Brunswick | University of New Brunswick       |    2006 | Engineering       | ECE                                                                | Joint program, CS teaches core, 4 SENG courses taught by ECE             | CS                           | Yes           |
+| Ontario       | McMaster University               |    2001 | Engineering       | Computing and Software                                             | CS program under same department                                         | Same dept                    | Same dept     |
+| Ontario       | Ontario Institute of Technology   |    2009 | Engineering       | Electrical, Computer and Software Engineering                      | Seems independent of Computer Science dept                               | Science                      | No?           |
+| Ontario       | The University of Western Ontario |    2001 | Engineering       | ECE                                                                | Seems independent of Computer Science dept                               | Science                      | No?           |
+| Ontario       | University of Ottawa              |    2001 | Engineering       | School of Electrical Eng and CS                                    | ECE and CS merged in 1997                                                | Same dept                    | Same dept     |
+| Ontario       | University of Waterloo            |    2006 | Engineering       | ECE                                                                | Specifically says Joint between Faculties Math and Engr                  | Math                         | Yes           |
+| Ontario       | York University                   |    2016 | Engineering       | Electrical Engineering and CS                                      | CS program under same department                                         | Same dept                    | Same dept     |
+| Quebec        | Carleton University               |    2003 | Eng. and Design   | Systems and Computer Engineering                                   | Seems independent of Computer Science dept                               | Science (School of CS)       | No            |
+| Quebec        | Concordia                         |    2002 | Engineering       | Computer Science and Software Engineering                          | CS program in same department                                            | Same dept                    | Same dept     |
+| Quebec        | École de technologie supérieure   |    2004 | ----              | Département de génie logiciel et des technologies de l'information | CS program in same department                                            | Same dept                    | Same dept     |
+| Quebec        | Lakehead University               |    2002 | Engineering       | Software Engineering                                               | CS dept in a different faculty                                           | Science and Environ. studies | No            |
+| Quebec        | McGill University                 |    2007 | Engineering       | Electrical and Computer Engineering                                | CS dept in a different faculty, and offers a BA in SEng (non-accredited) | Science                      | Yes?          |
+| Quebec        | Polytechnique Montréal            |    2005 | Engineering       | Département de génie informatique et génie logiciel                | No CS program                                                            | -----                        | ------        |
+| Quebec        | Université Laval                  |    2006 | Science and Engr. | Département d'informatique et de génie logiciel                    | CS in same department                                                    | Same dept                    | Same dept     |
 
 
 There are 17 accredited Software Engineering programs in the country. McMaster offers, in addition,
@@ -67,25 +67,6 @@ There are 17 accredited Software Engineering programs in the country. McMaster o
 | Saskatchewan | University of Regina |    2007 | Software Systems        |         |               |
 
 
-* :TOC_1:
-- [[#list-of-programs-in-canada][List of programs in Canada]]
-- [[#university-of-calgary][University of Calgary]]
-- [[#thompson-rivers-university][Thompson Rivers University]]
-- [[#new-brunswick][New Brunswick]]
-- [[#mcmaster-university-software-engineering][McMaster University: Software Engineering]]
-- [[#ontario-institute-of-technology-renamed-to-ontario-tech-university][Ontario Institute of Technology (renamed to Ontario Tech University)]]
-- [[#western-ontario][Western Ontario]]
-- [[#university-of-ottawa][University of Ottawa]]
-- [[#university-of-waterloo][University of Waterloo]]
-- [[#york-university][York University]]
-- [[#carleton-university][Carleton University]]
-- [[#concordia][Concordia]]
-- [[#école-de-technologie-supérieure][École de technologie supérieure]]
-- [[#lakehead][Lakehead]]
-- [[#mcgill][McGill]]
-- [[#polytechnique-of-montreal][Polytechnique of Montreal]]
-- [[#université-laval][Université Laval]]
-- [[#mcmaster-software-and-biomedical][McMaster Software and Biomedical]]
 
 * University of Calgary
 
